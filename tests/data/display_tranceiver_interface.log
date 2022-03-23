@@ -1,0 +1,19 @@
+<QX-S3828TP>display transceiver interface
+GigabitEthernet1/0/25 transceiver information:
+  Transceiver Type              : 1000_BASE_BX_D_SFP
+  Connector Type                : LC
+  Wavelength(nm)                : 1490
+  Transfer Distance(km)         : 10(9um)
+  Digital Diagnostic Monitoring : YES
+  Vendor Name                   : WTD
+  Serial Number                 : MF204100020014
+GigabitEthernet1/0/26 transceiver information:
+Error: The transceiver is absent.
+
+GigabitEthernet1/0/27 transceiver information:
+Error: The transceiver is absent.
+
+GigabitEthernet1/0/28 transceiver information:
+Error: The transceiver is absent.
+
+<QX-S3828TP>

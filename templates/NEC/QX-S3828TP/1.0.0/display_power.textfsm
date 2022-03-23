@@ -1,0 +1,8 @@
+Value Power (\d+)
+Value State (Normal|Absent)
+Value Type (AC|DC)
+
+Start
+  ^\s+Power\s+${Power}
+  ^\s+State\s+:\s+${State}
+  ^\s+Type\s+:\s+${Type} -> Record

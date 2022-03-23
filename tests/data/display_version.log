@@ -1,0 +1,18 @@
+<QX-S3828TP>display version
+Comware Platform Software
+Comware Software, Version 5.2.13
+Copyright (c) 2004-2016 NEC Corporation. All rights reserved.
+QX-S3828TP uptime is 0 week, 0 day, 0 hour, 1 minute
+
+QX-S3828TP with 1 Processor
+256M    bytes SDRAM
+2M      bytes Nor Flash Memory
+128M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is Ver.A
+CPLD Version is 001
+BootRom Version is 131
+[SubSlot 0] 24FE+4SFP+2Combo GE Hardware Version is Ver.A
+
+<QX-S3828TP>

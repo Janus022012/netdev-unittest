@@ -1,0 +1,8 @@
+Value System_Total_Memory (\d+)
+Value Total_Used_Memory (\d+)
+Value Used_Rate (\d+%)
+
+Start
+  ^System Total Memory(bytes):\s*${System_Total_Memory}
+  ^Total Used Memory(bytes):\s*${Total_Used_Memory}
+  ^Used Rate:\s*${Used_Rate} -> Record

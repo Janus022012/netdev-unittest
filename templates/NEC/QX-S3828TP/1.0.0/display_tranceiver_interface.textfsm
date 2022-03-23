@@ -1,0 +1,18 @@
+Value Interface_Name ([\w/]+)
+Value Transceiver_Type ([\w_]+)
+Value Connector_Type (\w+)
+Value Wavelength (\d+)
+Value Transfer_Distance (\w+)
+Value Digital_Diagnostic_Monitoring (\w+)
+Value Vendor_Name (\w+)
+Value Serial_Number (\w+)
+
+Start
+  ^${Interface_Name}\s*transceiver\s*information:
+  ^  Transceiver Type              : ${Transceiver_Type}
+  ^  Connector Type                : ${Connector_Type}
+  ^  Wavelength(nm)                : ${Wavelength}
+  ^  Transfer Distance(km)         : ${Transfer_Distance}
+  ^  Digital Diagnostic Monitoring : ${Digital_Diagnostic_Monitoring}
+  ^  Vendor Name                   : ${Vendor_Name}
+  ^  Serial Number                 : ${Serial_Number} -> Record

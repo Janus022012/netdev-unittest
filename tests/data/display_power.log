@@ -1,0 +1,12 @@
+<QX-S3828TP>display power
+ Slot 1
+
+      Power    1
+      State    : Normal
+      Type     : AC
+
+      Power    2
+      State    : Absent
+      Type     : DC
+
+<QX-S3828TP>display

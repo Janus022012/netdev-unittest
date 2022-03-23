@@ -1,0 +1,14 @@
+Value Slot_Number (\d+)
+Value Device_Name ([\w-]+)
+Value Device_Serial_Number ([\w-]+)
+Value Mac_Address ([\w-]+)
+Value Manufacturing_Date ([\d-]+)
+Value Vendor_Name (NEC)
+
+Start
+  ^\s*Slot\s+${Slot_Number}
+  ^\s*DEVICE_NAME\s+:\s+${Device_Name}
+  ^\s*DEVICE_SERIAL_NUMBER\s+:\s+${Device_Serial_Number}
+  ^\s*MAC_ADDRESS\s+:\s+${Mac_Address}
+  ^\s*MANUFACTURING_DATE\s+:\s+${Manufacturing_Date}
+  ^\s*VENDOR_NAME\s+:\s+${Vendor_Name} -> Record

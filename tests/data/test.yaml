@@ -1,0 +1,7 @@
+commands:
+  - "display device manuinfo"
+  - "display fan"
+  - "display memory"
+  - "display power"
+  - "display tranceiver interface"
+  - "display version"

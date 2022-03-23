@@ -1,0 +1,18 @@
+Value Software_Version ([\w.]+)
+Value Processor_Number (\d+)
+Value SDRAM_Volume (\w+)
+Value Nor_Flash_Memory_Volume (\w+)
+Value Nand_Flash_Memory_Volume (\w+)
+Value Hardware_Version ([\w.]+)
+Value CPLD_Version (\w+)
+Value BootRom_Version (\w+)
+
+Start
+  ^\s*Comware Software, Version ${Software_Version}
+  ^\s*QX-S3828TP with ${Processor_Number} Processor
+  ^\s*${SDRAM_Volume}\s*bytes SDRAM
+  ^\s*${Nor_Flash_Memory_Volume}\s*bytes Nor Flash Memory
+  ^\s*${Nand_Flash_Memory_Volume}\s*bytes Nand Flash Memory
+  ^\s*Hardware Version is ${Hardware_Version}
+  ^\s*CPLD Version is ${CPLD_Version}
+  ^\s*BootRom Version is ${BootRom_Version}

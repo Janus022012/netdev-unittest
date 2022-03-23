@@ -1,0 +1,8 @@
+Value Slot_Number (\d+)
+Value FAN_Number (\d+)
+Value State (\w+)
+
+Start
+  ^\s*Slot\s+${Slot_Number}
+  ^\s*FAN\s+${FAN_Number}
+  ^\s*State\s+:\s+${State} -> Record
