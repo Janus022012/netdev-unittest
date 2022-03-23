@@ -1,0 +1,5 @@
+future==0.18.2
+pyserial==3.5
+PyYAML==6.0
+six==1.16.0
+textfsm==1.1.2
